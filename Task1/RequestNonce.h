@@ -16,6 +16,7 @@ class RequestNonce:public handler{
                 strftime(buffer, sizeof(buffer), "%Y-%m-%d %H:%M:%S", timeInfo);
                 string timestampString(buffer);
                 passOn.setNonce(timestampString);
+                cout<<"Request successful"<<endl;
                 // return timestampString;
             }
             else{

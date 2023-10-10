@@ -19,6 +19,7 @@ class ValidateSignIn: public handler{
                     stringstream tokenStream;
                     tokenStream << now << ":" << rand();
                     passOn.setToken(tokenStream.str());
+                    cout<<"Validate successful"<<endl;
                     // return tokenStream.str();
                 }
             }

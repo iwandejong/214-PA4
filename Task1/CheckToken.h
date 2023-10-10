@@ -15,6 +15,7 @@ class CheckToken:public handler{
                     string userRequest;
                     cin>>userRequest;
                     handler::handle(userRequest,passOn);
+                    cout<<"Token check successful"<<endl;
                 }
                 else{
                     cout<<"Error"<<endl;

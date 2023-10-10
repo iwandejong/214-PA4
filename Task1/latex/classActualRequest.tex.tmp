@@ -1,0 +1,22 @@
+\hypertarget{classActualRequest}{}\doxysection{Actual\+Request Class Reference}
+\label{classActualRequest}\index{ActualRequest@{ActualRequest}}
+
+
+Inheritance diagram for Actual\+Request\+:
+% FIG 0
+
+
+Collaboration diagram for Actual\+Request\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classActualRequest_a07327c83539dae1e895eeb2664766c6a}\label{classActualRequest_a07327c83539dae1e895eeb2664766c6a}} 
+void {\bfseries handle} (string request, \mbox{\hyperlink{classuser}{user}} \&pass\+On)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Actual\+Request.\+h\end{DoxyCompactItemize}

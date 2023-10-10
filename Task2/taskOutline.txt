@@ -1,0 +1,7 @@
+We still need support for the older SQL statements like "SELECT * FROM table" where as the new SQL statement standard would be "FROM table SELECT *"
+
+The older SQL needs to adapt to the new SQL standard but without altering the original statements (legacy code tends to be coupled and difficult to alter).
+
+The adaptee (service) would be the incompatible class, therefore the old SQL statements.
+
+The adapter would be the compatible class with which the Client may interact. This would be the new SQL statements
